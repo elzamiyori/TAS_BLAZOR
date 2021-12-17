@@ -1,0 +1,25 @@
+@page "/studentspage"
+
+<h3 >List Of Students</h3>
+<br>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+        <th>NIM</th>
+        <th>Nama Belakang</th>
+        <th>Nama Depan</th>
+        <th>Tanggal Masuk</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var std in Student){
+        <tr>
+            <td>@std.studentID</td>
+            <td>@std.lastName</td>
+            <td>@std.firtsName</td>
+            <td>@std.enrollmentDate</td>
+        </tr>
+    }
+  </tbody>
+</table>
