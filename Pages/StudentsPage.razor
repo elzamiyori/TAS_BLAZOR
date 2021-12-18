@@ -1,25 +1,39 @@
 @page "/studentspage"
 
-<h3 >List Of Students</h3>
+<h3>List Of Students</h3>
 <br>
 
 <table class="table table-striped">
   <thead>
     <tr>
-        <th>NIM</th>
-        <th>Nama Belakang</th>
-        <th>Nama Depan</th>
-        <th>Tanggal Masuk</th>
+      <th>NIM</th>
+      <th>Nama Belakang</th>
+      <th>Nama Depan</th>
+      <th>Tanggal Masuk</th>
     </tr>
   </thead>
   <tbody>
-    @foreach(var std in Student){
-        <tr>
-            <td>@std.studentID</td>
-            <td>@std.lastName</td>
-            <td>@std.firtsName</td>
-            <td>@std.enrollmentDate</td>
-        </tr>
+    @foreach (var std in Student)
+    {
+      <tr>
+        <td>@std.studentID</td>
+        <td>@std.lastName</td>
+        <td>@std.firstName</td>
+        <td>@std.enrollmentDate</td>
+
+        <a href="@($"studentdetail/{std.studentID}")" class="btn btn-success" data-bs-placement="top"
+        title="Detail">
+          <span> Detail</span>
+        </a>
+
+        <a href="studentspage" class="btn btn-danger" data-bs-placement="top" title="Delete">
+          <span> Delete</span>
+        </a>
+
+        <a href="@($"editstudents/{std.studentID}")" class="btn btn-warning" data-bs-placement="top" title="Edit">
+          <span> Edit</span>
+        </a>
+      </tr>
     }
   </tbody>
 </table>

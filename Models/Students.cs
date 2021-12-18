@@ -6,7 +6,7 @@ namespace TASELZA.Models
     {
         public string studentID { get; set; }
         public string lastName { get; set; }
-        public string firtsName { get; set; }
+        public string firstName { get; set; }
         public DateTime enrollmentDate { get; set; }
     }
 }

@@ -82,8 +82,7 @@ using TASELZA.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/studentdetail/{id}")]
-    public partial class DetailStudents : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class DetailStudent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

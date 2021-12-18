@@ -7,7 +7,7 @@ namespace TASELZA.Services
     public interface IStudentService
     {
         Task<IEnumerable<Students>> GetAll();
-        
         Task<Students> GetById(int id);
+        Task<Students> Update(int id, Students students);
     }
 }

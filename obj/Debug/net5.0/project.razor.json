@@ -8,6 +8,59 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 668701182,
+        "Kind": "Components.Component",
+        "Name": "TASELZA.Pages.DetailStudents",
+        "AssemblyName": "TASELZA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DetailStudents"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TASELZA.Pages.DetailStudents"
+        }
+      },
+      {
+        "HashCode": -704176368,
+        "Kind": "Components.Component",
+        "Name": "TASELZA.Pages.DetailStudents",
+        "AssemblyName": "TASELZA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TASELZA.Pages.DetailStudents"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TASELZA.Pages.DetailStudents",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -311505851,
         "Kind": "Components.Component",
         "Name": "TASELZA.Pages.StudentsPage",
@@ -140,68 +193,55 @@
         }
       },
       {
-        "HashCode": -1321346824,
+        "HashCode": -1228271252,
         "Kind": "Components.Component",
-        "Name": "TASELZA.Pages.DetailStudents",
+        "Name": "TASELZA.Pages.EditStudents",
         "AssemblyName": "TASELZA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DetailStudents"
+            "TagName": "EditStudents"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TASELZA.Pages.DetailStudents"
+          "Common.TypeName": "TASELZA.Pages.EditStudents"
         }
       },
       {
-        "HashCode": -188690274,
+        "HashCode": -2042376988,
         "Kind": "Components.Component",
-        "Name": "TASELZA.Pages.DetailStudents",
+        "Name": "TASELZA.Pages.EditStudents",
         "AssemblyName": "TASELZA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TASELZA.Pages.DetailStudents"
+            "TagName": "TASELZA.Pages.EditStudents"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TASELZA.Pages.DetailStudents",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1216727455,
-        "Kind": "Components.Component",
-        "Name": "TASELZA.App",
-        "AssemblyName": "TASELZA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "App"
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TASELZA.App"
-        }
-      },
-      {
-        "HashCode": 1233807333,
-        "Kind": "Components.Component",
-        "Name": "TASELZA.App",
-        "AssemblyName": "TASELZA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TASELZA.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TASELZA.App",
+          "Common.TypeName": "TASELZA.Pages.EditStudents",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -384,6 +424,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TASELZA.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1216727455,
+        "Kind": "Components.Component",
+        "Name": "TASELZA.App",
+        "AssemblyName": "TASELZA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TASELZA.App"
+        }
+      },
+      {
+        "HashCode": 1233807333,
+        "Kind": "Components.Component",
+        "Name": "TASELZA.App",
+        "AssemblyName": "TASELZA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TASELZA.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TASELZA.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13074,6 +13147,11 @@
   },
   "RootNamespace": "TASELZA",
   "Documents": [
+    {
+      "FilePath": "c:\\blazor\\TASELZA\\Pages\\EditStudents.razor",
+      "TargetPath": "Pages\\EditStudents.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\blazor\\TASELZA\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",

@@ -632,3 +632,7 @@ c:\blazor\TASELZA\obj\Debug\net5.0\TASELZA.csproj.CopyComplete
 c:\blazor\TASELZA\obj\Debug\net5.0\TASELZA.dll
 c:\blazor\TASELZA\obj\Debug\net5.0\ref\TASELZA.dll
 c:\blazor\TASELZA\obj\Debug\net5.0\TASELZA.pdb
+c:\blazor\TASELZA\obj\Debug\net5.0\RazorDeclaration\Pages\DetailStudents.razor.g.cs
+c:\blazor\TASELZA\obj\Debug\net5.0\Razor\Pages\DetailStudents.razor.g.cs
+c:\blazor\TASELZA\obj\Debug\net5.0\RazorDeclaration\Pages\EditStudents.razor.g.cs
+c:\blazor\TASELZA\obj\Debug\net5.0\Razor\Pages\EditStudents.razor.g.cs
